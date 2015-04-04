@@ -11,6 +11,7 @@ GameObject:
   - 212: {fileID: 21261460}
   - 50: {fileID: 5008120}
   - 58: {fileID: 5818600}
+  - 114: {fileID: 11407854}
   m_Layer: 8
   m_Name: Fuzball
   m_TagString: Untagged
@@ -58,6 +59,19 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: .689999998
+--- !u!114 &11407854
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 190014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1eec0a62daab49afb9247ab07f66661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  waitTimeBeforeLayerChange: 2
 --- !u!212 &21261460
 SpriteRenderer:
   m_ObjectHideFlags: 1

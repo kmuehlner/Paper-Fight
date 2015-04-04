@@ -1,8 +1,9 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Temp/GeneratedFromSurface-CharacterShader.shader">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerMovement.cs">
     <Files>
-      <File FileName="Temp/GeneratedFromSurface-CharacterShader.shader" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/PlayerMovement.cs" Line="44" Column="72" />
+      <File FileName="../../2D Platform/Assets/Scripts/PlayerControl.cs" Line="57" Column="72" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -10,13 +10,11 @@ public class PlayerMovement : MonoBehaviour {
 	public float maxSpeed = 5f;				// The fastest the player can travel in the x axis.
 
 	private float initialY;
-	private Rigidbody2D rb;
 
 	// Use this for initialization
 	void Awake ()
 	{
 		initialY = transform.position.y;
-		rb = GetComponent<Rigidbody2D> ();
 	}
 	
 	// Update is called once per frame
