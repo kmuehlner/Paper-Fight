@@ -1,19 +1,23 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
-
+Project("{C6440CB5-AA29-7633-F60B-B2B0AA998A4B}") = "Paper Fight", "Assembly-CSharp-vs.csproj", "{33BF40B1-74BB-10E9-418C-6CB3E2CD2478}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-
+		{33BF40B1-74BB-10E9-418C-6CB3E2CD2478}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33BF40B1-74BB-10E9-418C-6CB3E2CD2478}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33BF40B1-74BB-10E9-418C-6CB3E2CD2478}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33BF40B1-74BB-10E9-418C-6CB3E2CD2478}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-					GlobalSection(MonoDevelopProperties) = preSolution
+							GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
