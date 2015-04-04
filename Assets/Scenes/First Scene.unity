@@ -97,7 +97,9 @@ GameObject:
   - 4: {fileID: 184089358}
   - 212: {fileID: 184089357}
   - 50: {fileID: 184089359}
-  m_Layer: 0
+  - 61: {fileID: 184089360}
+  - 58: {fileID: 184089361}
+  m_Layer: 9
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -157,6 +159,32 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
+--- !u!61 &184089360
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 184089356}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: .0972919464, y: -1.36210537}
+  serializedVersion: 2
+  m_Size: {x: 1.49874711, y: .215788841}
+--- !u!58 &184089361
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 184089356}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: .0599999987, y: -1.29999995}
+  serializedVersion: 2
+  m_Radius: .389999986
 --- !u!1 &364295075
 GameObject:
   m_ObjectHideFlags: 0
@@ -166,7 +194,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 364295077}
   - 212: {fileID: 364295076}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Foreground Landscape
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -208,7 +236,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -9.69999981, y: -2.43000007, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 2050403864}
   m_Father: {fileID: 0}
   m_RootOrder: 2
 --- !u!1 &1012622040
@@ -221,7 +250,8 @@ GameObject:
   - 4: {fileID: 1012622043}
   - 212: {fileID: 1012622042}
   - 50: {fileID: 1012622041}
-  m_Layer: 0
+  - 58: {fileID: 1012622044}
+  m_Layer: 8
   m_Name: Fuzball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -281,6 +311,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
+--- !u!58 &1012622044
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1012622040}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: .689999998
 --- !u!1 &1104721184
 GameObject:
   m_ObjectHideFlags: 0
@@ -365,6 +408,114 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!1 &1783638689
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1783638690}
+  - 68: {fileID: 1783638691}
+  m_Layer: 8
+  m_Name: Background Landscape Collider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1783638690
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1783638689}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2067733958}
+  m_RootOrder: 0
+--- !u!68 &1783638691
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1783638689}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  m_Points:
+  - {x: -11.3970242, y: .903191507}
+  - {x: -11.3876028, y: -2.01106763}
+  - {x: -11.1079626, y: -1.86168706}
+  - {x: -8.40173626, y: -.858544827}
+  - {x: -6.94357443, y: -.454707354}
+  - {x: -5.21576691, y: -.188631147}
+  - {x: -3.68482065, y: -.105724327}
+  - {x: -2.22145605, y: -.0876682848}
+  - {x: -.407247841, y: -.317135751}
+  - {x: 1.53464663, y: -.998174608}
+  - {x: 2.76239753, y: -1.52757215}
+  - {x: 7.55557871, y: -1.70573938}
+  - {x: 9.50789738, y: -1.87817812}
+  - {x: 11.2455482, y: -2.21420574}
+  - {x: 11.3245525, y: .557098389}
+--- !u!1 &2050403861
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2050403864}
+  - 68: {fileID: 2050403862}
+  m_Layer: 9
+  m_Name: Foreground Landscape Collider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!68 &2050403862
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2050403861}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  m_Points:
+  - {x: -2.57734203, y: 9.18053436}
+  - {x: -2.54994392, y: .17528677}
+  - {x: -1.50388813, y: .388519526}
+  - {x: -.620847702, y: .443581104}
+  - {x: 3.48937273, y: -.572360039}
+  - {x: 5.0632019, y: -1.22204852}
+  - {x: 6.0202589, y: -1.48733783}
+  - {x: 9.02131462, y: -1.83484197}
+  - {x: 10.469388, y: -1.98644853}
+  - {x: 13.9797115, y: -1.94276071}
+  - {x: 18.7739086, y: -1.75803638}
+  - {x: 22.0585403, y: -1.51392698}
+  - {x: 22.0377579, y: 3.47293234}
+--- !u!4 &2050403864
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2050403861}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 364295077}
+  m_RootOrder: 0
 --- !u!1 &2067733956
 GameObject:
   m_ObjectHideFlags: 0
@@ -374,7 +525,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2067733958}
   - 212: {fileID: 2067733957}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Background Landscape
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -416,6 +567,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1.07814944, y: 1.07814944, z: 1.07814944}
-  m_Children: []
+  m_Children:
+  - {fileID: 1783638690}
   m_Father: {fileID: 0}
   m_RootOrder: 1
