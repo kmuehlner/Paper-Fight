@@ -1,0 +1,154 @@
+fileFormatVersion: 2
+guid: 8ade4065ddbf94f288815f84890c05c1
+timeCreated: 1428176146
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: dummies_0
+    21300002: dummies_1
+    21300004: dummies_2
+    21300006: dummies_3
+    21300008: dummies_4
+    21300010: dummies_5
+    21300012: dummies_6
+    21300014: dummies_7
+    21300016: dummies_8
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 300
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: dummies_0
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 1596
+        width: 508
+        height: 882
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dummies_1
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 1611
+        width: 520
+        height: 879
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dummies_2
+      rect:
+        serializedVersion: 2
+        x: 1909
+        y: 1815
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dummies_3
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 608
+        width: 429
+        height: 851
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dummies_4
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 746
+        width: 507
+        height: 467
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dummies_5
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 893
+        width: 668
+        height: 551
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dummies_6
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 457
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dummies_7
+      rect:
+        serializedVersion: 2
+        x: 1453
+        y: 1632
+        width: 503
+        height: 877
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dummies_8
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 174
+        width: 821
+        height: 310
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
