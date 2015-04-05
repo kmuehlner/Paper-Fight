@@ -22,15 +22,20 @@ public class EnemyMovement : MonoBehaviour {
 	void Update ()
 	{
 		if (!OnPlayerLayer ()) {
-			timeOffPlayerLayer+= Time.deltaTime;
+			timeOffPlayerLayer += Time.deltaTime;
 			if (timeOffPlayerLayer >= waitTimeBeforeLayerChange) {
 				gameObject.layer = player.layer;
 				if (gameObject.layer == BACKGROUND_LAYER) {
-					Vector3 newPosition = new Vector3(transform.position.x, initialY, 0);
+					GetComponent<SpriteRenderer> ().sortingLayerName = "Background";
+					Vector3 newPosition = new Vector3 (transform.position.x, initialY, 0);
 					transform.position = newPosition;
+				} else {
+					GetComponent<SpriteRenderer> ().sortingLayerName = "Foreground";
 				}
 				timeOffPlayerLayer = 0f;
 			}
+		} else {
+			timeOffPlayerLayer = 0f;
 		}
 	}
 

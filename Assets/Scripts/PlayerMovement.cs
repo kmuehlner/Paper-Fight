@@ -25,10 +25,12 @@ public class PlayerMovement : MonoBehaviour {
 
 		if (v == 1 && layer == FOREGROUND_LAYER) {
 			gameObject.layer = BACKGROUND_LAYER;
-			Vector3 newPosition = new Vector3(gameObject.transform.position.x, initialY, 0);
-			gameObject.transform.position = newPosition;
+			Vector3 newPosition = new Vector3(transform.position.x, initialY, 0);
+			transform.position = newPosition;
+			GetComponent<SpriteRenderer>().sortingLayerName = "Background";
 		} else if (v == -1 && layer == BACKGROUND_LAYER) {
 			gameObject.layer = FOREGROUND_LAYER;
+			GetComponent<SpriteRenderer>().sortingLayerName = "Foreground";
 		}
 	}
 

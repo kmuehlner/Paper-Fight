@@ -189,8 +189,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -358460993
-  m_SortingOrder: 0
+  m_SortingLayerID: 1408266109
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 8ade4065ddbf94f288815f84890c05c1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &184089358
@@ -268,6 +268,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 364295077}
   - 212: {fileID: 364295076}
+  - 50: {fileID: 364295078}
   m_Layer: 9
   m_Name: Foreground Landscape
   m_TagString: Untagged
@@ -314,6 +315,21 @@ Transform:
   - {fileID: 2050403864}
   m_Father: {fileID: 0}
   m_RootOrder: 2
+--- !u!50 &364295078
+Rigidbody2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 364295075}
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: .0500000007
+  m_GravityScale: 1
+  m_FixedAngle: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
 --- !u!1 &1104721184
 GameObject:
   m_ObjectHideFlags: 0
@@ -515,6 +531,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2067733958}
   - 212: {fileID: 2067733957}
+  - 50: {fileID: 2067733959}
   m_Layer: 8
   m_Name: Background Landscape
   m_TagString: Untagged
@@ -556,11 +573,26 @@ Transform:
   m_GameObject: {fileID: 2067733956}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.07814944, y: 1.07814944, z: 1.07814944}
+  m_LocalScale: {x: 1.10000002, y: 1.10000002, z: 1.10000002}
   m_Children:
   - {fileID: 1783638690}
   m_Father: {fileID: 0}
   m_RootOrder: 1
+--- !u!50 &2067733959
+Rigidbody2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2067733956}
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: .0500000007
+  m_GravityScale: 1
+  m_FixedAngle: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
 --- !u!1001 &2098909414
 Prefab:
   m_ObjectHideFlags: 0
