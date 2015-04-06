@@ -21,7 +21,7 @@ public class EnemyMovement : MonoBehaviour {
 	// Update is called once per frame
 	void Update ()
 	{
-		if (!OnPlayerLayer ()) {
+		if (!OnPlayerLayer () && !player.GetComponent<PlayerMovement>().Offstage()) {
 			timeOffPlayerLayer += Time.deltaTime;
 			if (timeOffPlayerLayer >= waitTimeBeforeLayerChange) {
 				gameObject.layer = player.layer;
